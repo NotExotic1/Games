@@ -1,0 +1,5 @@
+ports/**/*.wasm filter=lfs diff=lfs merge=lfs -text
+ports/**/*.pck filter=lfs diff=lfs merge=lfs -text
+ports/**/*.data.* filter=lfs diff=lfs merge=lfs -text
+ports/**/*.part* filter=lfs diff=lfs merge=lfs -text
+ports/**/*.framework.js filter=lfs diff=lfs merge=lfs -text
